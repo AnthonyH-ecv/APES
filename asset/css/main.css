@@ -14,6 +14,7 @@ nav {
 nav a {
   text-decoration: none;
   margin-left: 15px;
+  color: #000;
 }
 
 .bg {
@@ -34,6 +35,7 @@ nav a {
 .text-colum {
   display: flex;
   margin-bottom: 30px;
+  padding: 15px;
 }
 
 .txt {
@@ -47,12 +49,32 @@ nav a {
   justify-content: space-around;
 }
 
-.grid-content {
-  text-align: center;
+.grid-content img {
+  width: 100%;
+  margin-bottom: 15px;
 }
 
+.grid-content {
+  text-align: center;
+  margin-bottom: 30px;
+}
 
 .img-md img {
   width: 100%;
   margin: auto;
+}
+
+.img-fixed {
+  background: url('../img/large/01-snub-nosed-monkey.jpg') no-repeat top center;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 50vh;
+
+}
+
+.img-stacked img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
 }

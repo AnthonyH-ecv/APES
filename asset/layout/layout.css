@@ -1,6 +1,10 @@
-@media screen and (min-width: 480px) {
+@media screen and (max-width: 420px) {
   body {
-    background-color: darkblue;
+    background-color: grey;
+  }
+
+  .text-colum {
+    display: block;
   }
 }
 
