@@ -1,0 +1,58 @@
+header {
+  display: flex;
+  padding: 60px;
+}
+
+.title {
+  flex: 1;
+}
+
+nav {
+  display: inline-block;
+}
+
+nav a {
+  text-decoration: none;
+  margin-left: 15px;
+}
+
+.bg {
+  background: url("../img/large/inspired-2013-05-monkey-main.jpg") no-repeat top center;
+  background-size: cover;
+  min-height: 80vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+
+.bg h1 {
+  color: #fff;
+  font-size: 2em;
+}
+
+.text-colum {
+  display: flex;
+  margin-bottom: 30px;
+}
+
+.txt {
+  flex: 1;
+  padding: 15px;
+}
+
+.grid-section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.grid-content {
+  text-align: center;
+}
+
+
+.img-md img {
+  width: 100%;
+  margin: auto;
+}

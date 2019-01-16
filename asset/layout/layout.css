@@ -1,0 +1,17 @@
+@media screen and (min-width: 480px) {
+  body {
+    background-color: darkblue;
+  }
+}
+
+@media screen and (min-width: 780px) {
+  body {
+    background-color: blue;
+  }
+}
+
+@media screen and (min-width: 1020px) {
+  body {
+    background-color: lightblue;
+  }
+}
