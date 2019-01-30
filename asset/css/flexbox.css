@@ -1,0 +1,11 @@
+.flexbox {
+  width: 80%;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+
+}
+
+.flexbox img {
+  margin: 1em;
+}

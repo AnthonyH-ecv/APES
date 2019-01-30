@@ -1,0 +1,17 @@
+header {
+  display: flex;
+  padding: 60px;
+  background-color: rgb(105, 118, 139);
+}
+
+.title {
+  flex: 1;
+}
+
+nav {
+  display: inline-block;
+}
+
+nav a {
+  padding: 0 20px;
+}

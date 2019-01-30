@@ -1,0 +1,16 @@
+div {
+  max-width: 100%;
+  overflow: hidden;
+}
+
+div img {
+  display: block;
+  max-width: 100%;
+  transition: all 1s ease-in
+}
+
+div img:hover {
+  cursor: pointer;
+  transform: scale(1.2);
+  filter: opacity(0.5);
+}

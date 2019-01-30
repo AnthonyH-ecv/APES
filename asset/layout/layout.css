@@ -6,9 +6,31 @@
   .text-colum {
     display: block;
   }
+
+  .grid {
+    grid-template-columns: 1fr;
+  }
+
+
 }
 
-@media screen and (min-width: 780px) {
+@media screen and (min-width: 420px) and (max-width: 779px) {
+
+  body {
+    background-color: chartreuse;
+  }
+
+  .text-colum {
+    display: block;
+  }
+
+  .grid {
+    grid-template-columns: 1fr;
+  }
+
+}
+
+@media screen and (min-width: 780px) and (max-width:1000px) {
   body {
     background-color: blue;
   }
