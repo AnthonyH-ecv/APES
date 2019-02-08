@@ -1,0 +1,38 @@
+.bg-cover {
+  background: url('../img/md/p026105t-baby-monkey-images-5.jpg') no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 70vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.bg-cover-title {
+  font-size: 3em;
+  font-weight: bolder;
+  font-family: inherit;
+  color: #fff;
+}
+
+.img-fixed {
+  background: url('../img/large/orangutan.jpg') no-repeat 70% 40%;
+  background-attachment: fixed;
+  background-size: cover;
+  height: 60vh;
+  width: 100%;
+
+}
+
+.img-gorilla img {
+  display: block;
+  width: 100%;
+  margin: auto;
+}
+
+.img-full img {
+  display: block;
+  width: 100%;
+  margin: auto;
+}

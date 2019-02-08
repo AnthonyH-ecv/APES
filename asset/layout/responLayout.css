@@ -1,0 +1,11 @@
+@media screen and (min-width: 960px) {
+
+  .img-full {
+    width: 100%;
+    margin: auto;
+  }
+
+  .img-full img {
+    object-fit: cover;
+  }
+}
