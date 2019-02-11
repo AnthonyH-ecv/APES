@@ -7,10 +7,21 @@
     display: block;
   }
 
-  .grid {
-    grid-template-columns: 1fr;
+  .text-colum p {
+    margin: 1em 0;
   }
 
+  .content h1 {
+    font-size: 1em;
+  }
+
+  footer {
+    flex-direction: column;
+  }
+
+  footer>* {
+    margin: 1em;
+  }
 
 }
 
@@ -24,9 +35,22 @@
     display: block;
   }
 
-  .grid {
-    grid-template-columns: 1fr;
+  .text-colum p {
+    margin: 1em 0;
   }
+
+  .content h1 {
+    font-size: 2em;
+  }
+
+  footer {
+    flex-direction: column;
+  }
+
+  footer>* {
+    margin: 1em;
+  }
+
 
 }
 

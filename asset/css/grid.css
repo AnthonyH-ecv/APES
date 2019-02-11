@@ -3,8 +3,34 @@
   grid-template-columns: repeat(auto-fill, minmax(500px, 1fr));
   grid-gap: 1em;
   padding: 2em;
+
 }
 
-.grid img {
+.content {
   width: 100%;
+  background-color: white;
+
+}
+
+.content img {
+  display: block;
+  width: 100%;
+  margin: auto
+}
+
+.content-text {
+  padding: 2em;
+  text-align: justify;
+}
+
+.content-text h2 {
+  text-align: center;
+  font-size: 2em;
+  margin-bottom: 1em;
+  font-weight: 700;
+}
+
+.content-text p {
+  margin-bottom: 0.5em;
+  line-height: 1.2;
 }
