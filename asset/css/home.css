@@ -10,13 +10,11 @@ section {
   justify-content: center;
   align-items: center;
   text-align: center;
-  width: 80%;
+  width: 90%;
   margin: auto;
   min-height: 30vh;
   margin-bottom: 20px;
 }
-
-
 
 .title-section {
   font-size: 2em;
@@ -24,22 +22,23 @@ section {
   margin-bottom: 15px;
 }
 
-.responsive {
-  background-color: burlywood;
+.img-section {
+  position: relative;
+  z-index: -1;
+  width: 100%;
+  margin: auto;
+  filter: brightness(0.5);
 }
 
-.flexbox {
-  background-color: cornflowerblue;
+.flexbox:hover {
+  cursor: pointer;
 }
 
-.grid {
-  background-color: rgb(75, 177, 44);
+.content {
+  position: absolute;
+
 }
 
-.transforms {
-  background-color: crimson;
-}
-
-footer {
-  background-color: rgb(105, 118, 139);
+.content h1 {
+  font-size: 4em;
 }

@@ -25,3 +25,22 @@ nav {
 nav a {
   padding: 0 20px;
 }
+
+footer {
+  display: flex;
+  background-color: rgb(105, 118, 139);
+  padding: 4em;
+  justify-content: space-around;
+  align-items: center;
+  color: white;
+}
+
+.id p,
+.nav a {
+  margin-bottom: 0.5em;
+}
+
+footer .nav {
+  display: flex;
+  flex-direction: column;
+}
