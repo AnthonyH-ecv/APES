@@ -1,0 +1,44 @@
+main {
+  width: 100%;
+  margin: auto;
+  padding-top: 1em;
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 90%;
+  margin: auto;
+  min-height: 30vh;
+  margin-bottom: 20px;
+}
+
+.title-section {
+  font-size: 2em;
+  font-weight: 700;
+  margin-bottom: 15px;
+}
+
+.img-section {
+  position: relative;
+  z-index: -1;
+  width: 100%;
+  margin: auto;
+  filter: brightness(0.5);
+}
+
+.flexbox:hover {
+  cursor: pointer;
+}
+
+.content {
+  position: absolute;
+
+}
+
+.content h1 {
+  font-size: 4em;
+}
