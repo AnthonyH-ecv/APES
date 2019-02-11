@@ -16,7 +16,7 @@
   "bugs": {
     "url": "https://github.com/AnthonyH-ecv/APES/issues"
   },
-  "homepage": "https://github.com/AnthonyH-ecv/APES/html/home.html",
+  "homepage": "https://github.com/AnthonyH-ecv/APES/home.html/",
   "dependencies": {
     "gh-pages": "^2.0.1"
   }
